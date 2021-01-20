@@ -1,0 +1,42 @@
+$h2-color: #041A71;
+$p-color: #9095A7;
+$btn-color: #F25F3A;
+$bg: #FAFAFA;
+$footer-color: #1D1E25;
+$hover: 5px 8px 5px rgba(0,0,0,0.3);
+
+$h2-size: 3rem;
+$p-size: 1.5rem;
+
+$h2-font: 700;
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 400;
+}
+body{
+    overflow-x: hidden;
+
+    a,button{
+        background: $btn-color;
+        color: white;
+    }
+    h2{
+        color: $h2-color;
+        font-size: $h2-size;
+        font-weight: $h2-font;
+    }
+    p{
+        font-size: $p-size;
+        color: $p-color;
+    }
+}
+
+/*# sourceMappingURL=main.css.map */
